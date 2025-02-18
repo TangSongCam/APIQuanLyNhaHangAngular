@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|c:\\users\\songc\\source\\repos\\apiquanlynhahang\\apiquanlynhahang\\data\\qlnhahangdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|solutionrelative:apiquanlynhahang\\data\\qlnhahangdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|c:\\users\\songc\\source\\repos\\apiquanlynhahang\\apiquanlynhahang\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|solutionrelative:apiquanlynhahang\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|c:\\users\\songc\\source\\repos\\apiquanlynhahang\\apiquanlynhahang\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|solutionrelative:apiquanlynhahang\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|c:\\users\\songc\\source\\repos\\apiquanlynhahang\\apiquanlynhahang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|solutionrelative:apiquanlynhahang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|c:\\users\\songc\\source\\repos\\apiquanlynhahang\\apiquanlynhahang\\migrations\\20250217065641_apiqlnhahangdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|solutionrelative:apiquanlynhahang\\migrations\\20250217065641_apiqlnhahangdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QLNhaHangDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Data\\QLNhaHangDbContext.cs",
+              "RelativeDocumentMoniker": "APIQuanLyNhaHang\\Data\\QLNhaHangDbContext.cs",
+              "ToolTip": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Data\\QLNhaHangDbContext.cs",
+              "RelativeToolTip": "APIQuanLyNhaHang\\Data\\QLNhaHangDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T07:22:33.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "APIQuanLyNhaHang\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Controllers\\UserController.cs",
+              "RelativeToolTip": "APIQuanLyNhaHang\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T07:10:06.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Program.cs",
+              "RelativeDocumentMoniker": "APIQuanLyNhaHang\\Program.cs",
+              "ToolTip": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Program.cs",
+              "RelativeToolTip": "APIQuanLyNhaHang\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T07:15:56.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Model\\User.cs",
+              "RelativeDocumentMoniker": "APIQuanLyNhaHang\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Model\\User.cs",
+              "RelativeToolTip": "APIQuanLyNhaHang\\Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T07:05:45.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250217065641_APIQLNhaHangDb.cs",
+              "DocumentMoniker": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Migrations\\20250217065641_APIQLNhaHangDb.cs",
+              "RelativeDocumentMoniker": "APIQuanLyNhaHang\\Migrations\\20250217065641_APIQLNhaHangDb.cs",
+              "ToolTip": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Migrations\\20250217065641_APIQLNhaHangDb.cs",
+              "RelativeToolTip": "APIQuanLyNhaHang\\Migrations\\20250217065641_APIQLNhaHangDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T06:56:42.781Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

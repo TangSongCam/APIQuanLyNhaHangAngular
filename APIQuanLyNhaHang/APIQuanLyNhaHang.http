@@ -1,0 +1,6 @@
+@APIQuanLyNhaHang_HostAddress = http://localhost:5168
+
+GET {{APIQuanLyNhaHang_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

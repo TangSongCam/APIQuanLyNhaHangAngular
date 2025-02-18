@@ -1,0 +1,950 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "APIQuanLyNhaHang",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Bookings": {
+      "get": {
+        "tags": [
+          "Bookings"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Booking"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Booking"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Booking"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Bookings"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Booking"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Booking"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Booking"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Booking"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Booking"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Booking"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Bookings/{id}": {
+      "get": {
+        "tags": [
+          "Bookings"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Booking"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Booking"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Booking"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Bookings"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Booking"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Booking"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Booking"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Bookings"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Bookings/{id}/menuitems": {
+      "get": {
+        "tags": [
+          "Bookings"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Bookings/tables": {
+      "get": {
+        "tags": [
+          "Bookings"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Menu": {
+      "get": {
+        "tags": [
+          "Menu"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Menu"
+        ],
+        "parameters": [
+          {
+            "name": "role",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Id": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Name": {
+                    "type": "string"
+                  },
+                  "Description": {
+                    "type": "string"
+                  },
+                  "Price": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "ImagePath": {
+                    "type": "string"
+                  },
+                  "Category": {
+                    "type": "string"
+                  },
+                  "BookingId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Booking.Id": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Booking.CustomerName": {
+                    "type": "string"
+                  },
+                  "Booking.PhoneNumber": {
+                    "type": "string"
+                  },
+                  "Booking.BookingDate": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "Booking.BookingTime": {
+                    "type": "string",
+                    "format": "date-span"
+                  },
+                  "Booking.NumberOfGuests": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Booking.Notes": {
+                    "type": "string"
+                  },
+                  "Booking.TableId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Booking.Table.Id": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Booking.Table.Status": {
+                    "type": "string"
+                  },
+                  "Booking.Table.Name": {
+                    "type": "string"
+                  },
+                  "Booking.Table.Bookings": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/Booking"
+                    }
+                  },
+                  "Booking.MenuItems": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/MenuItem"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "Id": {
+                  "style": "form"
+                },
+                "Name": {
+                  "style": "form"
+                },
+                "Description": {
+                  "style": "form"
+                },
+                "Price": {
+                  "style": "form"
+                },
+                "ImagePath": {
+                  "style": "form"
+                },
+                "Category": {
+                  "style": "form"
+                },
+                "BookingId": {
+                  "style": "form"
+                },
+                "Booking.Id": {
+                  "style": "form"
+                },
+                "Booking.CustomerName": {
+                  "style": "form"
+                },
+                "Booking.PhoneNumber": {
+                  "style": "form"
+                },
+                "Booking.BookingDate": {
+                  "style": "form"
+                },
+                "Booking.BookingTime": {
+                  "style": "form"
+                },
+                "Booking.NumberOfGuests": {
+                  "style": "form"
+                },
+                "Booking.Notes": {
+                  "style": "form"
+                },
+                "Booking.TableId": {
+                  "style": "form"
+                },
+                "Booking.Table.Id": {
+                  "style": "form"
+                },
+                "Booking.Table.Status": {
+                  "style": "form"
+                },
+                "Booking.Table.Name": {
+                  "style": "form"
+                },
+                "Booking.Table.Bookings": {
+                  "style": "form"
+                },
+                "Booking.MenuItems": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Menu/{id}": {
+      "get": {
+        "tags": [
+          "Menu"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Menu"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Id": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Name": {
+                    "type": "string"
+                  },
+                  "Description": {
+                    "type": "string"
+                  },
+                  "Price": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "ImagePath": {
+                    "type": "string"
+                  },
+                  "Category": {
+                    "type": "string"
+                  },
+                  "BookingId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Booking.Id": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Booking.CustomerName": {
+                    "type": "string"
+                  },
+                  "Booking.PhoneNumber": {
+                    "type": "string"
+                  },
+                  "Booking.BookingDate": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "Booking.BookingTime": {
+                    "type": "string",
+                    "format": "date-span"
+                  },
+                  "Booking.NumberOfGuests": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Booking.Notes": {
+                    "type": "string"
+                  },
+                  "Booking.TableId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Booking.Table.Id": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Booking.Table.Status": {
+                    "type": "string"
+                  },
+                  "Booking.Table.Name": {
+                    "type": "string"
+                  },
+                  "Booking.Table.Bookings": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/Booking"
+                    }
+                  },
+                  "Booking.MenuItems": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/MenuItem"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "Id": {
+                  "style": "form"
+                },
+                "Name": {
+                  "style": "form"
+                },
+                "Description": {
+                  "style": "form"
+                },
+                "Price": {
+                  "style": "form"
+                },
+                "ImagePath": {
+                  "style": "form"
+                },
+                "Category": {
+                  "style": "form"
+                },
+                "BookingId": {
+                  "style": "form"
+                },
+                "Booking.Id": {
+                  "style": "form"
+                },
+                "Booking.CustomerName": {
+                  "style": "form"
+                },
+                "Booking.PhoneNumber": {
+                  "style": "form"
+                },
+                "Booking.BookingDate": {
+                  "style": "form"
+                },
+                "Booking.BookingTime": {
+                  "style": "form"
+                },
+                "Booking.NumberOfGuests": {
+                  "style": "form"
+                },
+                "Booking.Notes": {
+                  "style": "form"
+                },
+                "Booking.TableId": {
+                  "style": "form"
+                },
+                "Booking.Table.Id": {
+                  "style": "form"
+                },
+                "Booking.Table.Status": {
+                  "style": "form"
+                },
+                "Booking.Table.Name": {
+                  "style": "form"
+                },
+                "Booking.Table.Bookings": {
+                  "style": "form"
+                },
+                "Booking.MenuItems": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Menu"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "role",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Table": {
+      "get": {
+        "tags": [
+          "Table"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Table"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Table"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Table"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Table"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Table/{id}": {
+      "put": {
+        "tags": [
+          "Table"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Table"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Table"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Table"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Table"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/register": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/login": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Booking": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "customerName": {
+            "type": "string",
+            "nullable": true
+          },
+          "phoneNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "bookingDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "bookingTime": {
+            "type": "string",
+            "format": "date-span",
+            "nullable": true
+          },
+          "numberOfGuests": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "notes": {
+            "type": "string",
+            "nullable": true
+          },
+          "tableId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "table": {
+            "$ref": "#/components/schemas/Table"
+          },
+          "menuItems": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/MenuItem"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginRequest": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MenuItem": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          },
+          "imagePath": {
+            "type": "string",
+            "nullable": true
+          },
+          "category": {
+            "type": "string",
+            "nullable": true
+          },
+          "bookingId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "booking": {
+            "$ref": "#/components/schemas/Booking"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Table": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "bookings": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Booking"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "User": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "role": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

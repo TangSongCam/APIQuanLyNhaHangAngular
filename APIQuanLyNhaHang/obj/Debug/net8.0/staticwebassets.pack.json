@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\12245ebc-b4e4-41a4-abe8-76455653967f_f4.png",
+      "PackagePath": "staticwebassets\\images\\12245ebc-b4e4-41a4-abe8-76455653967f_f4.png"
+    },
+    {
+      "Id": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\21d0a5af-e63a-43ab-b045-06904a664f1d_f1.png",
+      "PackagePath": "staticwebassets\\images\\21d0a5af-e63a-43ab-b045-06904a664f1d_f1.png"
+    },
+    {
+      "Id": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\2e112b60-3dc8-48c3-8a98-b123cbc445dd_f5.png",
+      "PackagePath": "staticwebassets\\images\\2e112b60-3dc8-48c3-8a98-b123cbc445dd_f5.png"
+    },
+    {
+      "Id": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\375f8d97-776d-41c1-be62-d50e9fa8c995_f5.png",
+      "PackagePath": "staticwebassets\\images\\375f8d97-776d-41c1-be62-d50e9fa8c995_f5.png"
+    },
+    {
+      "Id": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\5b1c3ae9-bd0a-42c4-abec-c2bc65b5be12_f7.png",
+      "PackagePath": "staticwebassets\\images\\5b1c3ae9-bd0a-42c4-abec-c2bc65b5be12_f7.png"
+    },
+    {
+      "Id": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\9d09adf9-e94e-414c-b591-008ee80d1046_f2.png",
+      "PackagePath": "staticwebassets\\images\\9d09adf9-e94e-414c-b591-008ee80d1046_f2.png"
+    },
+    {
+      "Id": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\c6e40dd8-4b9c-427d-b001-8f64c39bf2bd_f5.png",
+      "PackagePath": "staticwebassets\\images\\c6e40dd8-4b9c-427d-b001-8f64c39bf2bd_f5.png"
+    },
+    {
+      "Id": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\cc695afa-a6c8-4cc6-9dd8-293989ee1ffc_f7.png",
+      "PackagePath": "staticwebassets\\images\\cc695afa-a6c8-4cc6-9dd8-293989ee1ffc_f7.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.APIQuanLyNhaHang.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.APIQuanLyNhaHang.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.APIQuanLyNhaHang.props",
+      "PackagePath": "build\\APIQuanLyNhaHang.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.APIQuanLyNhaHang.props",
+      "PackagePath": "buildMultiTargeting\\APIQuanLyNhaHang.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.APIQuanLyNhaHang.props",
+      "PackagePath": "buildTransitive\\APIQuanLyNhaHang.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
