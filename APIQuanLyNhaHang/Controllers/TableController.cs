@@ -14,7 +14,7 @@ public class TableController : ControllerBase
         _context = context;
     }
 
-    // Lấy danh sách bàn (bao gồm cả tên và trạng thái)
+
     [HttpGet]
     public IActionResult GetTables()
     {
@@ -28,7 +28,6 @@ public class TableController : ControllerBase
         return Ok(tables);
     }
 
-    // Thêm bàn mới
     [HttpPost]
     public IActionResult AddTable([FromBody] Table newTable)
     {
@@ -45,7 +44,6 @@ public class TableController : ControllerBase
         return CreatedAtAction(nameof(GetTables), new { id = newTable.Id }, newTable);
     }
 
-    // Cập nhật thông tin bàn (cập nhật tên và trạng thái)
     [HttpPut("{id}")]
     public IActionResult UpdateTable(int id, [FromBody] Table updatedTable)
     {
@@ -62,7 +60,6 @@ public class TableController : ControllerBase
         return Ok(existingTable);
     }
 
-    // Xóa bàn
     [HttpDelete("{id}")]
     public IActionResult DeleteTable(int id)
     {

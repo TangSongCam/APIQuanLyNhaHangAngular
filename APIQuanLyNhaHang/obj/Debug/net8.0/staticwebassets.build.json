@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OT3IKZSkoD3ThjdW/sWb+QK15zSQMxPyq6OIz9E9EeY=",
+  "Hash": "5pLN+Qwv0CFARv62qcPeE52ITbcw78bsdibg0+9WXjY=",
   "Source": "APIQuanLyNhaHang",
   "BasePath": "_content/APIQuanLyNhaHang",
   "Mode": "Default",
@@ -101,6 +101,48 @@
       "OriginalItemSpec": "wwwroot\\images\\375f8d97-776d-41c1-be62-d50e9fa8c995_f5.png"
     },
     {
+      "Identity": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\37f5f4d6-6c09-4055-81c4-5649ac99f647_pngtree-beef-rice-noodles-spicy-png-image_6715460.jpg",
+      "SourceId": "APIQuanLyNhaHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\",
+      "BasePath": "_content/APIQuanLyNhaHang",
+      "RelativePath": "images/37f5f4d6-6c09-4055-81c4-5649ac99f647_pngtree-beef-rice-noodles-spicy-png-image_6715460#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ks3kdut2d3",
+      "Integrity": "NAVlsfDk9REIlt225Puo61iJKtfI1Gg6Om6EvrEY0Rc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\37f5f4d6-6c09-4055-81c4-5649ac99f647_pngtree-beef-rice-noodles-spicy-png-image_6715460.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\4ce03bc0-ec53-403e-997b-89f2d9dde138_f4.png",
+      "SourceId": "APIQuanLyNhaHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\",
+      "BasePath": "_content/APIQuanLyNhaHang",
+      "RelativePath": "images/4ce03bc0-ec53-403e-997b-89f2d9dde138_f4#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6kxzkjmezk",
+      "Integrity": "WstFQoD5AGfdO7ImxBtv1o83ABQ65UVURNuIG1i+3fM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\4ce03bc0-ec53-403e-997b-89f2d9dde138_f4.png"
+    },
+    {
       "Identity": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\5b1c3ae9-bd0a-42c4-abec-c2bc65b5be12_f7.png",
       "SourceId": "APIQuanLyNhaHang",
       "SourceType": "Discovered",
@@ -143,6 +185,27 @@
       "OriginalItemSpec": "wwwroot\\images\\9d09adf9-e94e-414c-b591-008ee80d1046_f2.png"
     },
     {
+      "Identity": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\bab4efaa-6e9f-44fd-8567-7ccac822ba8f_f2.png",
+      "SourceId": "APIQuanLyNhaHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\",
+      "BasePath": "_content/APIQuanLyNhaHang",
+      "RelativePath": "images/bab4efaa-6e9f-44fd-8567-7ccac822ba8f_f2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ktovtbb25v",
+      "Integrity": "aAj2Yr4QUUIh3m5c4Eko0d7aHtuL7jcd2tgFsXsZGL8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bab4efaa-6e9f-44fd-8567-7ccac822ba8f_f2.png"
+    },
+    {
       "Identity": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\c6e40dd8-4b9c-427d-b001-8f64c39bf2bd_f5.png",
       "SourceId": "APIQuanLyNhaHang",
       "SourceType": "Discovered",
@@ -183,6 +246,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\cc695afa-a6c8-4cc6-9dd8-293989ee1ffc_f7.png"
+    },
+    {
+      "Identity": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\ccdc2932-2e6e-4566-8a59-945fe59c8cdf_f7.png",
+      "SourceId": "APIQuanLyNhaHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\",
+      "BasePath": "_content/APIQuanLyNhaHang",
+      "RelativePath": "images/ccdc2932-2e6e-4566-8a59-945fe59c8cdf_f7#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5mp1grcj9z",
+      "Integrity": "7RND20RFON1IvEAhjPA47bPHZNetdfH+So3rz9Ef5mw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ccdc2932-2e6e-4566-8a59-945fe59c8cdf_f7.png"
+    },
+    {
+      "Identity": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\e163ff48-3482-4e61-a7e8-04816ab8d15e_f5.png",
+      "SourceId": "APIQuanLyNhaHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\",
+      "BasePath": "_content/APIQuanLyNhaHang",
+      "RelativePath": "images/e163ff48-3482-4e61-a7e8-04816ab8d15e_f5#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qquuf1u58q",
+      "Integrity": "IiqMATkTr6Zep29/WJH4HTpwyybaMUqoqMJ+/LKMz4k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\e163ff48-3482-4e61-a7e8-04816ab8d15e_f5.png"
+    },
+    {
+      "Identity": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\f525249a-af5d-4ade-92cd-16cdb54a2c2f_f6.png",
+      "SourceId": "APIQuanLyNhaHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\",
+      "BasePath": "_content/APIQuanLyNhaHang",
+      "RelativePath": "images/f525249a-af5d-4ade-92cd-16cdb54a2c2f_f6#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zlipdfzboh",
+      "Integrity": "iRwJFtnhaiaQ2kzJgvvtMbKNEsVLFviSQad0nNsi8Qk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\f525249a-af5d-4ade-92cd-16cdb54a2c2f_f6.png"
     }
   ],
   "Endpoints": [
@@ -515,6 +641,170 @@
       ]
     },
     {
+      "Route": "images/37f5f4d6-6c09-4055-81c4-5649ac99f647_pngtree-beef-rice-noodles-spicy-png-image_6715460.jpg",
+      "AssetFile": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\37f5f4d6-6c09-4055-81c4-5649ac99f647_pngtree-beef-rice-noodles-spicy-png-image_6715460.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "968270"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NAVlsfDk9REIlt225Puo61iJKtfI1Gg6Om6EvrEY0Rc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 05:55:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NAVlsfDk9REIlt225Puo61iJKtfI1Gg6Om6EvrEY0Rc="
+        }
+      ]
+    },
+    {
+      "Route": "images/37f5f4d6-6c09-4055-81c4-5649ac99f647_pngtree-beef-rice-noodles-spicy-png-image_6715460.ks3kdut2d3.jpg",
+      "AssetFile": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\37f5f4d6-6c09-4055-81c4-5649ac99f647_pngtree-beef-rice-noodles-spicy-png-image_6715460.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "968270"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NAVlsfDk9REIlt225Puo61iJKtfI1Gg6Om6EvrEY0Rc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 05:55:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ks3kdut2d3"
+        },
+        {
+          "Name": "label",
+          "Value": "images/37f5f4d6-6c09-4055-81c4-5649ac99f647_pngtree-beef-rice-noodles-spicy-png-image_6715460.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NAVlsfDk9REIlt225Puo61iJKtfI1Gg6Om6EvrEY0Rc="
+        }
+      ]
+    },
+    {
+      "Route": "images/4ce03bc0-ec53-403e-997b-89f2d9dde138_f4.6kxzkjmezk.png",
+      "AssetFile": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\4ce03bc0-ec53-403e-997b-89f2d9dde138_f4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "219054"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WstFQoD5AGfdO7ImxBtv1o83ABQ65UVURNuIG1i+3fM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 03:30:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6kxzkjmezk"
+        },
+        {
+          "Name": "label",
+          "Value": "images/4ce03bc0-ec53-403e-997b-89f2d9dde138_f4.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WstFQoD5AGfdO7ImxBtv1o83ABQ65UVURNuIG1i+3fM="
+        }
+      ]
+    },
+    {
+      "Route": "images/4ce03bc0-ec53-403e-997b-89f2d9dde138_f4.png",
+      "AssetFile": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\4ce03bc0-ec53-403e-997b-89f2d9dde138_f4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "219054"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WstFQoD5AGfdO7ImxBtv1o83ABQ65UVURNuIG1i+3fM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 03:30:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WstFQoD5AGfdO7ImxBtv1o83ABQ65UVURNuIG1i+3fM="
+        }
+      ]
+    },
+    {
       "Route": "images/5b1c3ae9-bd0a-42c4-abec-c2bc65b5be12_f7.5mp1grcj9z.png",
       "AssetFile": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\5b1c3ae9-bd0a-42c4-abec-c2bc65b5be12_f7.png",
       "Selectors": [],
@@ -665,6 +955,88 @@
         {
           "Name": "Last-Modified",
           "Value": "Sat, 15 Feb 2025 05:07:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aAj2Yr4QUUIh3m5c4Eko0d7aHtuL7jcd2tgFsXsZGL8="
+        }
+      ]
+    },
+    {
+      "Route": "images/bab4efaa-6e9f-44fd-8567-7ccac822ba8f_f2.ktovtbb25v.png",
+      "AssetFile": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\bab4efaa-6e9f-44fd-8567-7ccac822ba8f_f2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "103712"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aAj2Yr4QUUIh3m5c4Eko0d7aHtuL7jcd2tgFsXsZGL8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 03:30:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ktovtbb25v"
+        },
+        {
+          "Name": "label",
+          "Value": "images/bab4efaa-6e9f-44fd-8567-7ccac822ba8f_f2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aAj2Yr4QUUIh3m5c4Eko0d7aHtuL7jcd2tgFsXsZGL8="
+        }
+      ]
+    },
+    {
+      "Route": "images/bab4efaa-6e9f-44fd-8567-7ccac822ba8f_f2.png",
+      "AssetFile": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\bab4efaa-6e9f-44fd-8567-7ccac822ba8f_f2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "103712"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aAj2Yr4QUUIh3m5c4Eko0d7aHtuL7jcd2tgFsXsZGL8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 03:30:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -839,6 +1211,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-7RND20RFON1IvEAhjPA47bPHZNetdfH+So3rz9Ef5mw="
+        }
+      ]
+    },
+    {
+      "Route": "images/ccdc2932-2e6e-4566-8a59-945fe59c8cdf_f7.5mp1grcj9z.png",
+      "AssetFile": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\ccdc2932-2e6e-4566-8a59-945fe59c8cdf_f7.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "138396"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7RND20RFON1IvEAhjPA47bPHZNetdfH+So3rz9Ef5mw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 08:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5mp1grcj9z"
+        },
+        {
+          "Name": "label",
+          "Value": "images/ccdc2932-2e6e-4566-8a59-945fe59c8cdf_f7.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7RND20RFON1IvEAhjPA47bPHZNetdfH+So3rz9Ef5mw="
+        }
+      ]
+    },
+    {
+      "Route": "images/ccdc2932-2e6e-4566-8a59-945fe59c8cdf_f7.png",
+      "AssetFile": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\ccdc2932-2e6e-4566-8a59-945fe59c8cdf_f7.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "138396"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7RND20RFON1IvEAhjPA47bPHZNetdfH+So3rz9Ef5mw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 08:20:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7RND20RFON1IvEAhjPA47bPHZNetdfH+So3rz9Ef5mw="
+        }
+      ]
+    },
+    {
+      "Route": "images/e163ff48-3482-4e61-a7e8-04816ab8d15e_f5.png",
+      "AssetFile": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\e163ff48-3482-4e61-a7e8-04816ab8d15e_f5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "276337"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IiqMATkTr6Zep29/WJH4HTpwyybaMUqoqMJ+/LKMz4k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 03:31:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IiqMATkTr6Zep29/WJH4HTpwyybaMUqoqMJ+/LKMz4k="
+        }
+      ]
+    },
+    {
+      "Route": "images/e163ff48-3482-4e61-a7e8-04816ab8d15e_f5.qquuf1u58q.png",
+      "AssetFile": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\e163ff48-3482-4e61-a7e8-04816ab8d15e_f5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "276337"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IiqMATkTr6Zep29/WJH4HTpwyybaMUqoqMJ+/LKMz4k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 03:31:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qquuf1u58q"
+        },
+        {
+          "Name": "label",
+          "Value": "images/e163ff48-3482-4e61-a7e8-04816ab8d15e_f5.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IiqMATkTr6Zep29/WJH4HTpwyybaMUqoqMJ+/LKMz4k="
+        }
+      ]
+    },
+    {
+      "Route": "images/f525249a-af5d-4ade-92cd-16cdb54a2c2f_f6.png",
+      "AssetFile": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\f525249a-af5d-4ade-92cd-16cdb54a2c2f_f6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "236819"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iRwJFtnhaiaQ2kzJgvvtMbKNEsVLFviSQad0nNsi8Qk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 11:53:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iRwJFtnhaiaQ2kzJgvvtMbKNEsVLFviSQad0nNsi8Qk="
+        }
+      ]
+    },
+    {
+      "Route": "images/f525249a-af5d-4ade-92cd-16cdb54a2c2f_f6.zlipdfzboh.png",
+      "AssetFile": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\f525249a-af5d-4ade-92cd-16cdb54a2c2f_f6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "236819"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iRwJFtnhaiaQ2kzJgvvtMbKNEsVLFviSQad0nNsi8Qk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 11:53:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zlipdfzboh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/f525249a-af5d-4ade-92cd-16cdb54a2c2f_f6.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iRwJFtnhaiaQ2kzJgvvtMbKNEsVLFviSQad0nNsi8Qk="
         }
       ]
     }

@@ -15,20 +15,12 @@ namespace APIQuanLyNhaHang.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Seed data for Users
-            modelBuilder.Entity<User>().HasData(
-                new User { Id = 1, Username = "admin", Password = "admin123", Email = "admin@example.com", Role = "Admin" },
-                new User { Id = 2, Username = "user1", Password = "user123", Email = "user1@example.com", Role = "User" }
-            );
-
-            // Seed data for Tables
             modelBuilder.Entity<Table>().HasData(
                 new Table { Id = 1, Name = "Bàn 1", Status = "Available" },
                 new Table { Id = 2, Name = "Bàn 2", Status = "Available" },
                 new Table { Id = 3, Name = "Bàn 3", Status = "Available" }
             );
 
-            // Seed data for Bookings
             modelBuilder.Entity<Booking>().HasData(
                 new Booking
                 {
@@ -54,7 +46,6 @@ namespace APIQuanLyNhaHang.Data
                 }
             );
 
-            // Seed data for MenuItems (sử dụng thuộc tính ImagePath)
             modelBuilder.Entity<MenuItem>().HasData(
                 new MenuItem
                 {
@@ -88,7 +79,6 @@ namespace APIQuanLyNhaHang.Data
                 }
             );
 
-            // Set up relationships
             modelBuilder.Entity<Booking>()
                 .HasOne(b => b.Table)
                 .WithMany()
@@ -97,9 +87,10 @@ namespace APIQuanLyNhaHang.Data
 
 
             modelBuilder.Entity<MenuItem>()
-                .HasOne(m => m.Booking)
-                .WithMany(b => b.MenuItems)
-                .HasForeignKey(m => m.BookingId);
+            .HasOne(m => m.Booking)
+            .WithMany(b => b.MenuItems)
+            .HasForeignKey(m => m.BookingId)
+            .OnDelete(DeleteBehavior.Cascade);
 
             base.OnModelCreating(modelBuilder);
         }

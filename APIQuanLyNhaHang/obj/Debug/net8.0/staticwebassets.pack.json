@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\images\\375f8d97-776d-41c1-be62-d50e9fa8c995_f5.png"
     },
     {
+      "Id": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\37f5f4d6-6c09-4055-81c4-5649ac99f647_pngtree-beef-rice-noodles-spicy-png-image_6715460.jpg",
+      "PackagePath": "staticwebassets\\images\\37f5f4d6-6c09-4055-81c4-5649ac99f647_pngtree-beef-rice-noodles-spicy-png-image_6715460.jpg"
+    },
+    {
+      "Id": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\4ce03bc0-ec53-403e-997b-89f2d9dde138_f4.png",
+      "PackagePath": "staticwebassets\\images\\4ce03bc0-ec53-403e-997b-89f2d9dde138_f4.png"
+    },
+    {
       "Id": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\5b1c3ae9-bd0a-42c4-abec-c2bc65b5be12_f7.png",
       "PackagePath": "staticwebassets\\images\\5b1c3ae9-bd0a-42c4-abec-c2bc65b5be12_f7.png"
     },
@@ -25,12 +33,28 @@
       "PackagePath": "staticwebassets\\images\\9d09adf9-e94e-414c-b591-008ee80d1046_f2.png"
     },
     {
+      "Id": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\bab4efaa-6e9f-44fd-8567-7ccac822ba8f_f2.png",
+      "PackagePath": "staticwebassets\\images\\bab4efaa-6e9f-44fd-8567-7ccac822ba8f_f2.png"
+    },
+    {
       "Id": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\c6e40dd8-4b9c-427d-b001-8f64c39bf2bd_f5.png",
       "PackagePath": "staticwebassets\\images\\c6e40dd8-4b9c-427d-b001-8f64c39bf2bd_f5.png"
     },
     {
       "Id": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\cc695afa-a6c8-4cc6-9dd8-293989ee1ffc_f7.png",
       "PackagePath": "staticwebassets\\images\\cc695afa-a6c8-4cc6-9dd8-293989ee1ffc_f7.png"
+    },
+    {
+      "Id": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\ccdc2932-2e6e-4566-8a59-945fe59c8cdf_f7.png",
+      "PackagePath": "staticwebassets\\images\\ccdc2932-2e6e-4566-8a59-945fe59c8cdf_f7.png"
+    },
+    {
+      "Id": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\e163ff48-3482-4e61-a7e8-04816ab8d15e_f5.png",
+      "PackagePath": "staticwebassets\\images\\e163ff48-3482-4e61-a7e8-04816ab8d15e_f5.png"
+    },
+    {
+      "Id": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\wwwroot\\images\\f525249a-af5d-4ade-92cd-16cdb54a2c2f_f6.png",
+      "PackagePath": "staticwebassets\\images\\f525249a-af5d-4ade-92cd-16cdb54a2c2f_f6.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.APIQuanLyNhaHang.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

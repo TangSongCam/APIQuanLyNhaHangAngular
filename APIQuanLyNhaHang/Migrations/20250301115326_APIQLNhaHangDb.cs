@@ -94,7 +94,8 @@ namespace APIQuanLyNhaHang.Migrations
                         name: "FK_MenuItems_Bookings_BookingId",
                         column: x => x.BookingId,
                         principalTable: "Bookings",
-                        principalColumn: "Id");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.InsertData(
@@ -105,15 +106,6 @@ namespace APIQuanLyNhaHang.Migrations
                     { 1, "Bàn 1", "Available" },
                     { 2, "Bàn 2", "Available" },
                     { 3, "Bàn 3", "Available" }
-                });
-
-            migrationBuilder.InsertData(
-                table: "Users",
-                columns: new[] { "Id", "Email", "Password", "Role", "Username" },
-                values: new object[,]
-                {
-                    { 1, "admin@example.com", "admin123", "Admin", "admin" },
-                    { 2, "user1@example.com", "user123", "User", "user1" }
                 });
 
             migrationBuilder.InsertData(

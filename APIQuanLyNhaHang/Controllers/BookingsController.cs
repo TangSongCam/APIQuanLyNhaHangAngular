@@ -20,14 +20,12 @@ namespace APIQuanLyNhaHang.Controllers
             _context = context;
         }
 
-        // GET: api/Bookings
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Booking>>> GetBookings()
         {
             return await _context.Bookings.Include(b => b.Table).ToListAsync();
         }
 
-        // GET: api/Bookings/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Booking>> GetBooking(int id)
         {
@@ -43,13 +41,12 @@ namespace APIQuanLyNhaHang.Controllers
             return booking;
         }
 
-        // GET: api/Bookings/5/menuitems
         [HttpGet("{id}/menuitems")]
         public IActionResult GetBookingWithMenuItems(int id)
         {
             var booking = _context.Bookings
-                .Include(b => b.MenuItems) // Lấy danh sách món ăn
-                .Include(b => b.Table)     // Lấy thông tin bàn
+                .Include(b => b.MenuItems)
+                .Include(b => b.Table)
                 .FirstOrDefault(b => b.Id == id);
 
             if (booking == null)
@@ -60,7 +57,6 @@ namespace APIQuanLyNhaHang.Controllers
             return Ok(booking);
         }
 
-        // GET: api/Bookings/tables
         [HttpGet("tables")]
         public IActionResult GetTables()
         {
@@ -75,24 +71,20 @@ namespace APIQuanLyNhaHang.Controllers
             return Ok(tables);
         }
 
-        // POST: api/Bookings
         [HttpPost]
         public async Task<ActionResult<Booking>> PostBooking(Booking booking)
         {
-            // Kiểm tra bắt buộc phải có thời gian đặt bàn
             if (booking.BookingTime == null)
             {
                 return BadRequest(new { message = "Thời gian đặt bàn không được để trống!" });
             }
 
-            // Thêm đặt bàn mới
             _context.Bookings.Add(booking);
 
-            // Tìm bàn theo TableId và cập nhật trạng thái
             var table = await _context.Tables.FindAsync(booking.TableId);
             if (table != null)
             {
-                table.Status = "Occupied"; // Cập nhật trạng thái bàn thành Occupied
+                table.Status = "Occupied";
                 _context.Entry(table).State = EntityState.Modified;
             }
 
@@ -101,7 +93,6 @@ namespace APIQuanLyNhaHang.Controllers
             return CreatedAtAction("GetBooking", new { id = booking.Id }, booking);
         }
 
-        // PUT: api/Bookings/5
         [HttpPut("{id}")]
         public async Task<IActionResult> PutBooking(int id, Booking booking)
         {
@@ -110,7 +101,6 @@ namespace APIQuanLyNhaHang.Controllers
                 return BadRequest(new { message = "Id không khớp!" });
             }
 
-            // Kiểm tra đặt bàn
             var existingBooking = await _context.Bookings
                 .Include(b => b.Table)
                 .FirstOrDefaultAsync(b => b.Id == id);
@@ -119,19 +109,17 @@ namespace APIQuanLyNhaHang.Controllers
                 return NotFound(new { message = "Không tìm thấy đặt bàn!" });
             }
 
-            // Cập nhật thông tin đặt bàn (bao gồm cả BookingTime)
             _context.Entry(existingBooking).CurrentValues.SetValues(booking);
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
 
-        // DELETE: api/Bookings/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteBooking(int id)
         {
-            // Tìm đặt bàn
             var booking = await _context.Bookings
+                .Include(b => b.MenuItems) // Lấy luôn các menu items liên quan
                 .Include(b => b.Table)
                 .FirstOrDefaultAsync(b => b.Id == id);
             if (booking == null)
@@ -139,10 +127,16 @@ namespace APIQuanLyNhaHang.Controllers
                 return NotFound(new { message = "Không tìm thấy đặt bàn!" });
             }
 
-            // Xóa đặt bàn
+            // Xóa các menu items liên quan nếu có
+            if (booking.MenuItems != null && booking.MenuItems.Any())
+            {
+                _context.MenuItems.RemoveRange(booking.MenuItems);
+            }
+
+            // Xóa booking
             _context.Bookings.Remove(booking);
 
-            // Cập nhật trạng thái bàn thành Available nếu có
+            // Cập nhật trạng thái bàn nếu có
             var table = booking.Table;
             if (table != null)
             {
@@ -150,10 +144,18 @@ namespace APIQuanLyNhaHang.Controllers
                 _context.Tables.Update(table);
             }
 
-            await _context.SaveChangesAsync();
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Lỗi khi xóa đặt bàn!", error = ex.Message });
+            }
 
             return NoContent();
         }
+
 
         private bool BookingExists(int id)
         {

@@ -214,24 +214,6 @@ namespace APIQuanLyNhaHang.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Email = "admin@example.com",
-                            Password = "admin123",
-                            Role = "Admin",
-                            Username = "admin"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Email = "user1@example.com",
-                            Password = "user123",
-                            Role = "User",
-                            Username = "user1"
-                        });
                 });
 
             modelBuilder.Entity("APIQuanLyNhaHang.Model.Booking", b =>
@@ -253,7 +235,8 @@ namespace APIQuanLyNhaHang.Migrations
                 {
                     b.HasOne("APIQuanLyNhaHang.Model.Booking", "Booking")
                         .WithMany("MenuItems")
-                        .HasForeignKey("BookingId");
+                        .HasForeignKey("BookingId")
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.Navigation("Booking");
                 });

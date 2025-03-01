@@ -3,24 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|c:\\users\\songc\\source\\repos\\apiquanlynhahang\\apiquanlynhahang\\data\\qlnhahangdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|solutionrelative:apiquanlynhahang\\data\\qlnhahangdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|c:\\users\\songc\\source\\repos\\apiquanlynhahang\\apiquanlynhahang\\migrations\\20250301115326_apiqlnhahangdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|solutionrelative:apiquanlynhahang\\migrations\\20250301115326_apiqlnhahangdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|c:\\users\\songc\\source\\repos\\apiquanlynhahang\\apiquanlynhahang\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|solutionrelative:apiquanlynhahang\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|c:\\users\\songc\\source\\repos\\apiquanlynhahang\\apiquanlynhahang\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|solutionrelative:apiquanlynhahang\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|c:\\users\\songc\\source\\repos\\apiquanlynhahang\\apiquanlynhahang\\apiquanlynhahang.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|solutionrelative:apiquanlynhahang\\apiquanlynhahang.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|c:\\users\\songc\\source\\repos\\apiquanlynhahang\\apiquanlynhahang\\data\\qlnhahangdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|solutionrelative:apiquanlynhahang\\data\\qlnhahangdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|c:\\users\\songc\\source\\repos\\apiquanlynhahang\\apiquanlynhahang\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|solutionrelative:apiquanlynhahang\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|c:\\users\\songc\\source\\repos\\apiquanlynhahang\\apiquanlynhahang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|solutionrelative:apiquanlynhahang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|c:\\users\\songc\\source\\repos\\apiquanlynhahang\\apiquanlynhahang\\migrations\\20250217065641_apiqlnhahangdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|solutionrelative:apiquanlynhahang\\migrations\\20250217065641_apiqlnhahangdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|c:\\users\\songc\\source\\repos\\apiquanlynhahang\\apiquanlynhahang\\dto\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|solutionrelative:apiquanlynhahang\\dto\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|c:\\users\\songc\\source\\repos\\apiquanlynhahang\\apiquanlynhahang\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|solutionrelative:apiquanlynhahang\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|c:\\users\\songc\\source\\repos\\apiquanlynhahang\\apiquanlynhahang\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|solutionrelative:apiquanlynhahang\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|c:\\users\\songc\\source\\repos\\apiquanlynhahang\\apiquanlynhahang\\controllers\\tablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|solutionrelative:apiquanlynhahang\\controllers\\tablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|c:\\users\\songc\\source\\repos\\apiquanlynhahang\\apiquanlynhahang\\model\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|solutionrelative:apiquanlynhahang\\model\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|c:\\users\\songc\\source\\repos\\apiquanlynhahang\\apiquanlynhahang\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6D5EC750-B672-4153-A01B-C8F15B3A7C18}|APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj|solutionrelative:apiquanlynhahang\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,15 +63,99 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20250301115326_APIQLNhaHangDb.cs",
+              "DocumentMoniker": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Migrations\\20250301115326_APIQLNhaHangDb.cs",
+              "RelativeDocumentMoniker": "APIQuanLyNhaHang\\Migrations\\20250301115326_APIQLNhaHangDb.cs",
+              "ToolTip": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Migrations\\20250301115326_APIQLNhaHangDb.cs",
+              "RelativeToolTip": "APIQuanLyNhaHang\\Migrations\\20250301115326_APIQLNhaHangDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T11:53:26.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "APIQuanLyNhaHang.csproj",
+              "DocumentMoniker": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj",
+              "RelativeDocumentMoniker": "APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj",
+              "ToolTip": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj",
+              "RelativeToolTip": "APIQuanLyNhaHang\\APIQuanLyNhaHang.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-01T11:44:39.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Controllers\\BookingsController.cs",
+              "RelativeDocumentMoniker": "APIQuanLyNhaHang\\Controllers\\BookingsController.cs",
+              "ToolTip": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Controllers\\BookingsController.cs",
+              "RelativeToolTip": "APIQuanLyNhaHang\\Controllers\\BookingsController.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAwwJ0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T07:05:17.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TableController.cs",
+              "DocumentMoniker": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Controllers\\TableController.cs",
+              "RelativeDocumentMoniker": "APIQuanLyNhaHang\\Controllers\\TableController.cs",
+              "ToolTip": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Controllers\\TableController.cs",
+              "RelativeToolTip": "APIQuanLyNhaHang\\Controllers\\TableController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T15:51:16.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "APIQuanLyNhaHang\\Controllers\\MenuController.cs",
+              "ToolTip": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "APIQuanLyNhaHang\\Controllers\\MenuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T03:26:41.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "QLNhaHangDbContext.cs",
               "DocumentMoniker": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Data\\QLNhaHangDbContext.cs",
               "RelativeDocumentMoniker": "APIQuanLyNhaHang\\Data\\QLNhaHangDbContext.cs",
               "ToolTip": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Data\\QLNhaHangDbContext.cs",
               "RelativeToolTip": "APIQuanLyNhaHang\\Data\\QLNhaHangDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAIwFwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T07:22:33.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T13:38:29.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Model\\User.cs",
+              "RelativeDocumentMoniker": "APIQuanLyNhaHang\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Model\\User.cs",
+              "RelativeToolTip": "APIQuanLyNhaHang\\Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T13:38:18.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\DTO\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "APIQuanLyNhaHang\\DTO\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\DTO\\LoginRequest.cs",
+              "RelativeToolTip": "APIQuanLyNhaHang\\DTO\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T13:38:13.339Z"
             },
             {
               "$type": "Document",
@@ -53,45 +165,45 @@
               "RelativeDocumentMoniker": "APIQuanLyNhaHang\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Controllers\\UserController.cs",
               "RelativeToolTip": "APIQuanLyNhaHang\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T07:10:06.728Z"
+              "WhenOpened": "2025-02-18T13:38:05.842Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Model\\Booking.cs",
+              "RelativeDocumentMoniker": "APIQuanLyNhaHang\\Model\\Booking.cs",
+              "ToolTip": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Model\\Booking.cs",
+              "RelativeToolTip": "APIQuanLyNhaHang\\Model\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T07:06:35.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Program.cs",
               "RelativeDocumentMoniker": "APIQuanLyNhaHang\\Program.cs",
               "ToolTip": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Program.cs",
               "RelativeToolTip": "APIQuanLyNhaHang\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T07:15:56.674Z"
+              "WhenOpened": "2025-02-18T13:37:29.489Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Model\\User.cs",
-              "RelativeDocumentMoniker": "APIQuanLyNhaHang\\Model\\User.cs",
-              "ToolTip": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Model\\User.cs",
-              "RelativeToolTip": "APIQuanLyNhaHang\\Model\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T07:05:45.935Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20250217065641_APIQLNhaHangDb.cs",
-              "DocumentMoniker": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Migrations\\20250217065641_APIQLNhaHangDb.cs",
-              "RelativeDocumentMoniker": "APIQuanLyNhaHang\\Migrations\\20250217065641_APIQLNhaHangDb.cs",
-              "ToolTip": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\Migrations\\20250217065641_APIQLNhaHangDb.cs",
-              "RelativeToolTip": "APIQuanLyNhaHang\\Migrations\\20250217065641_APIQLNhaHangDb.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T06:56:42.781Z"
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\appsettings.json",
+              "RelativeDocumentMoniker": "APIQuanLyNhaHang\\appsettings.json",
+              "ToolTip": "C:\\Users\\songc\\source\\repos\\APIQuanLyNhaHang\\APIQuanLyNhaHang\\appsettings.json",
+              "RelativeToolTip": "APIQuanLyNhaHang\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-18T13:35:34.335Z"
             }
           ]
         }

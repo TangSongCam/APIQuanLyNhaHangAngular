@@ -36,14 +36,12 @@ namespace APIQuanLyNhaHang.Controllers
             return Ok(item);
         }
 
-        // Lấy 'role' từ query string thay vì FromForm
         [HttpPost]
         public async Task<IActionResult> AddMenuItem([FromForm] MenuItem item, [FromQuery] string role)
         {
             if (role != "Admin")
                 return Forbid("Only admins can add menu items.");
 
-            // Kiểm tra BookingId nếu cần (đoạn này giữ nguyên nếu bạn có logic kiểm tra)
             if (item.BookingId.HasValue)
             {
                 var existingBooking = _context.Bookings.Find(item.BookingId.Value);
@@ -51,7 +49,6 @@ namespace APIQuanLyNhaHang.Controllers
                     return BadRequest("BookingId không hợp lệ.");
             }
 
-            // Xử lý file upload
             var file = Request.Form.Files.FirstOrDefault();
             if (file != null && file.Length > 0)
             {
@@ -69,7 +66,6 @@ namespace APIQuanLyNhaHang.Controllers
                 item.ImagePath = Path.Combine("images", uniqueFileName);
             }
 
-            // Đảm bảo Id được đặt về 0 để EF tự sinh
             item.Id = 0;
             _context.MenuItems.Add(item);
             await _context.SaveChangesAsync();
@@ -80,7 +76,7 @@ namespace APIQuanLyNhaHang.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateMenuItem(int id, [FromForm] MenuItem updatedItem)
         {
-            string role = Request.Headers["Role"];
+            string role = Request.Headers["Role"].ToString();
             if (role != "Admin")
                 return Forbid("Only admins can update menu items.");
 
@@ -94,11 +90,9 @@ namespace APIQuanLyNhaHang.Controllers
             item.Category = updatedItem.Category;
             item.BookingId = updatedItem.BookingId;
 
-            // Xử lý file upload nếu có file mới
             var file = Request.Form.Files.FirstOrDefault();
             if (file != null && file.Length > 0)
             {
-                // Xoá file ảnh cũ (nếu có)
                 if (!string.IsNullOrEmpty(item.ImagePath))
                 {
                     var oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", item.ImagePath);

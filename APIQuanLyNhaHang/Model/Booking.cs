@@ -10,10 +10,8 @@
         public int NumberOfGuests { get; set; }
         public string? Notes { get; set; }
 
-        // Foreign Key
         public int TableId { get; set; }
 
-        // Navigation Property
         public Table? Table { get; set; }
         public ICollection<MenuItem>? MenuItems { get; set; }
     }

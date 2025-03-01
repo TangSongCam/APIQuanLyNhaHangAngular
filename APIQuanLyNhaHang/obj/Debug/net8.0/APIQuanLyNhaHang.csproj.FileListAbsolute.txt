@@ -280,3 +280,5 @@ C:\Users\songc\source\repos\APIQuanLyNhaHang\APIQuanLyNhaHang\bin\Debug\net8.0\z
 C:\Users\songc\source\repos\APIQuanLyNhaHang\APIQuanLyNhaHang\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\songc\source\repos\APIQuanLyNhaHang\APIQuanLyNhaHang\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\songc\source\repos\APIQuanLyNhaHang\APIQuanLyNhaHang\bin\Debug\net8.0\APIQuanLyNhaHang.staticwebassets.runtime.json
+C:\Users\songc\source\repos\APIQuanLyNhaHang\APIQuanLyNhaHang\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\songc\source\repos\APIQuanLyNhaHang\APIQuanLyNhaHang\obj\Debug\net8.0\APIQuanLyNhaHang.sourcelink.json
